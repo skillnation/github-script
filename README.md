@@ -4,6 +4,10 @@
 [![.github/workflows/ci.yml](https://github.com/actions/github-script/workflows/CI/badge.svg?event=push&branch=main)](https://github.com/actions/github-script/actions?query=workflow%3ACI+branch%3Amain+event%3Apush)
 [![.github/workflows/licensed.yml](https://github.com/actions/github-script/workflows/Licensed/badge.svg?event=push&branch=main)](https://github.com/actions/github-script/actions?query=workflow%3ALicensed+branch%3Amain+event%3Apush)
 
+**Changes on this fork:**
+
+- Use node 14 (using the `use node` action didn't work on our self hosted runner for whatever reason)
+
 This action makes it easy to quickly write a script in your workflow that
 uses the GitHub API and the workflow run context.
 
