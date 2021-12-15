@@ -6,7 +6,7 @@
 
 **Changes on this fork:**
 
-- Use node 14 (using the `use node` action didn't work on our self hosted runner for whatever reason)
+- Use node 16 (using the `use node` action didn't work on our self hosted runner for whatever reason)
 
 This action makes it easy to quickly write a script in your workflow that
 uses the GitHub API and the workflow run context.
